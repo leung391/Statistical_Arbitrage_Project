@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import matplotlib.pyplot as plt
 import csv
 import numpy as np
@@ -159,10 +153,3 @@ for i in range(len(raw)):
     backtest_raw.append((raw[i][0], raw[i][1], backtest[i]))
 
 z_score(backtest_raw, True)
-
-
-# In[ ]:
-
-
-
-
