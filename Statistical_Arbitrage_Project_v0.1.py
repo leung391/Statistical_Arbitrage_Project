@@ -152,4 +152,5 @@ backtest_raw = []
 for i in range(len(raw)):
     backtest_raw.append((raw[i][0], raw[i][1], backtest[i]))
 
-z_score(backtest_raw, True)
+#Replace False to True to see plots
+z_score(backtest_raw, False)
